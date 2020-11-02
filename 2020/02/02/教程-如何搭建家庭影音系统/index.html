@@ -1,0 +1,1384 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html class="theme-next pisces" lang="zh-CN">
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+  
+  
+  <link rel="stylesheet" href="/lib/Han/dist/han.min.css">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="/css/main.css?v=7.0.1">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.0.1">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.0.1">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.0.1">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=7.0.1" color="#222">
+
+
+
+
+
+
+
+<script id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '7.0.1',
+    sidebar: {"position":"left","display":"always","offset":12,"onmobile":false,"dimmer":false},
+    back2top: true,
+    back2top_sidebar: false,
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="keywords" content="教程,Kodi">
+<meta property="og:type" content="article">
+<meta property="og:title" content="[教程]~如何搭建家庭影视系统">
+<meta property="og:url" content="https://nerdliu.cyou/2020/02/02/教程-如何搭建家庭影音系统/index.html">
+<meta property="og:site_name" content="Lius blog">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https://nerdliu.cyou/images/c_kodi.png">
+<meta property="og:image" content="https://nerdliu.cyou/images/o_harry_4k.jpg">
+<meta property="og:image" content="https://nerdliu.cyou/images/o_kodi_umc.png">
+<meta property="og:image" content="https://nerdliu.cyou/images/o_kodi_tvdb.png">
+<meta property="og:updated_time" content="2020-11-02T13:07:48.857Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="[教程]~如何搭建家庭影视系统">
+<meta name="twitter:image" content="https://nerdliu.cyou/images/c_kodi.png">
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Lius blog" type="application/atom+xml">
+
+
+
+  
+  
+  <link rel="canonical" href="https://nerdliu.cyou/2020/02/02/教程-如何搭建家庭影音系统/">
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>[教程]~如何搭建家庭影视系统 | Lius blog</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+    <a href="https://nerdliu.cyou/cryp_study_note/"><img style="position: absolute;top: 0;right: 0;border: 0;z-index: 9999" width="149" height="149" src="/images/sp_bannar.png" class="attachment-full size-full" alt="Switch to my Notes" data-recalc-dims="1"></a>
+    
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Lius blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+      
+        <p class="site-subtitle">汉武秋风辞意健
+英雄何须叹华年</p>
+      
+    
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+
+    
+    
+    
+      
+    
+
+    
+      
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+
+    
+    
+    
+      
+    
+
+    
+      
+    
+
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类<span class="badge">7</span></a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+    
+      
+    
+
+    
+      
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档<span class="badge">31</span></a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+
+    
+    
+    
+      
+    
+
+    
+      
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签<span class="badge">21</span></a>
+
+  </li>
+
+      
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>搜索</a>
+        </li>
+      
+    </ul>
+  
+
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+            
+
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://nerdliu.cyou/2020/02/02/教程-如何搭建家庭影音系统/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Liu">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Lius blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">[教程]~如何搭建家庭影视系统
+
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2020-02-02 21:52:57" itemprop="dateCreated datePublished" datetime="2020-02-02T21:52:57+08:00">2020-02-02</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2020-11-02 21:07:48" itemprop="dateModified" datetime="2020-11-02T21:07:48+08:00">2020-11-02</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/折腾小记/" itemprop="url" rel="index"><span itemprop="name">折腾小记</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">评论数：</span>
+                <a href="/2020/02/02/教程-如何搭建家庭影音系统/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2020/02/02/教程-如何搭建家庭影音系统/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body han-init-context" itemprop="articleBody">
+
+      
+      
+
+      
+        <!-- ![kodi_movies](https://www.picgd.com/images/2020/02/02/1d531b605f39e5ceef22e873fbb23c60.png) -->
+<p><img src="/images/c_kodi.png" alt="kodi_tvshows"></p>
+<a id="more"></a>
+<hr>
+<p>在现今互联网发达的时代，大家获得资源的途径也越来越多，许多小伙伴喜欢从网络下载上下载自己喜欢的电影或电视剧在本地观看。资源一旦下载得太多，就会面临着如何管理的问题。在电脑上还比较方便，一旦使用电视来播放，简陋的文件管理器以及凌乱的文件名让人看着就头疼，还没开始自己看片的心情就减少了一半。那么有没有什么比较合适的家庭影音系统呢？这里凭我“多年”的经验，向大家推荐电视神器 ---- KODI。</p>
+<p>KODI 的前身是 XBMC，即 Xbox media center 的缩写，翻译过来就是 Xbox 多媒体中心。从它的命名不难看出最初这款软件是专门为 Xbox 量身定做的，为了实现利用 Xbox 看电视的功能（名正言顺的机顶盒，比隔壁 Plash Speed 不知道高到哪里去了）。但是墙内开花墙外香，真正让 KODI 焕发活力的是各大盒子平台，甚至有人专门针对安卓系统出了个 KODI 的衍生版 <a href="http://spmc.semperpax.com/" target="_blank" rel="noopener">SPMC</a> 以及针对树莓派的 <a href="https://libreelec.tv/" target="_blank" rel="noopener">LibreELEC</a>。但毫无疑问的是，目前 KODI 可以说是安卓 TV 系统中功能最完善、自定义程度最高的家庭影视系统平台。这篇博客与其说如何搭建家庭影视系统，不如说更像是 KODI 使用指南。至于到底效果如何，且容我细细道来。</p>
+<blockquote>
+<p>Tip: 在修改系统语言为中文之前，记得把字体调到 <code>Arial</code> 选项。</p>
+</blockquote>
+<hr>
+<h1 id="1-文件的命名"><a class="markdownIt-Anchor" href="#1-文件的命名"></a> 1. 文件的命名</h1>
+<p>很多小伙伴可能有疑问了，文件命名有什么好说的。其实并不是这样，文件的命名也有很多讲究。规范的文件名能包含视频文件的一些基本信息。按照民间默认的习惯，文件名的命名规则一般为：</p>
+<blockquote>
+<p>英文名或罗马名 + 集数 + 年份 + 分辨率 + 媒介 + 编码信息 + 制作组</p>
+</blockquote>
+<ul>
+<li><strong>英文名或罗马名：</strong> 一般我们不建议在文件名中包含中文，这也是为了防止一些不必要的 bug 出现，比如<em>三国演义</em>一般用 <em>Romance.of.Three.Kindloms</em> 代替，单词间使用 “.” 来隔开；</li>
+<li><strong>集数：</strong> 集数是针对电视剧和动漫而言的，一般格式为 “S+季数+E+集数”，比如 S01E02 就代表第一季第二集；</li>
+<li><strong>年份：</strong> 首播日期</li>
+<li><strong>分辨率：</strong> 常见的有 2160P/1080P/720P，除非远古资源，为了观影体验，分辨率最好高于 720P；</li>
+<li><strong>媒介：</strong> 即文件是从哪里来的，如 BluRay/BDRip/R-BD /DVD/DVDRip/HDTVRip/LDRip/WEB-DL，常见的有 BluRay （蓝光碟），BDRip （蓝光转录，一般在原本基础上增加了新的音轨和字幕），DVD/DVDRip 同理，HDTVRip （高清电视转录），WEB-DL （从流媒体网站下载，比如从优酷、爱奇异、NETFLIX、Amazon 等平台下载）。高清党最忌讳一种资源，即所谓的枪版，标识为 TC/TS，这种资源一般盗录自电影院，无论音质还是画质都没达到最低标准；</li>
+<li><strong>编码信息：</strong> 一般 H.264/x265，264 是比较普遍使用的编码方式，大多数设备都可以流畅播放，x265 有时也写作 HEVC，相比 264 有着在画质相同体积更小的特点，少数设备可以直接硬解；</li>
+<li><strong>制作组：</strong> 很多人会直接忽略制作组的信息，其实对于同样的资源，不同的制作组有着不同的风格。有的更关注于小容量，比如使用 AAC 编码的双声道音轨；有些更关注于原汁原味，直接采用 DTS 格式的 7.1 声道音轨，对视频压缩也尽量保持与原盘的同样质量。目前国内有名的制作组也就那么几个，下多了资源的同学多留心也会注意到风格的差异。</li>
+</ul>
+<blockquote>
+<p>除了上面提到的一些，还有些信息可能会包含在文件名里，比如 HDR、Dolby、10bit 等。HDR 需要配合具备显示 HDR 高清色彩功能的电视（或显示器），Dolby 也是类似，最好具备比较好的音响系统，10bit 是相对于传统的 8bit 而言，一般目前使用 x265 编码的视频都在采用 10bit 的色彩空间。</p>
+</blockquote>
+<p><img src="/images/o_harry_4k.jpg" alt="harry_poter"></p>
+<center style="position: relative;top: -10px">不同版本的蓝光封面（图为哈利波特8部电影集）</center>
+<hr>
+<h1 id="2-文件的管理"><a class="markdownIt-Anchor" href="#2-文件的管理"></a> 2. 文件的管理</h1>
+<p>对文件名有了基本的认识后，我们就可以开始整理文件。一般我习惯将下载文件与资料库放在不同的文件夹，一方面是方便做种，另一方面是为了更好地进行分类管理。</p>
+<p>这时候就有一个问题，如何将同一个文件放进不同的文件夹呢？这里我推荐使用<strong>硬链接</strong>的方式。比如我们在 <code>./Downloads/</code> 文件夹中下载了一部名为 <code>Taxi.Driver.1976.BluRay.1080p.x265.10bit.MIKI.mkv</code> 的电影，但是我们电影库在 <code>./Movies/</code> 文件夹中，这时只需要输入下面的命令：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ln ./Downloads/Taxi.Driver.1976.BluRay.1080p.x265.10bit.MIKI.mkv ./Movies/</span><br></pre></td></tr></table></figure>
+<p>即可在 <code>Movies</code> 文件夹中创建相同的文件。</p>
+<p>与快捷方式这样的&quot;软链接&quot;不同，硬链接创建的文件看上去与真实文件无异，不会占用多余空间，而且删除其中的一个文件，另外一个文件不受影响。使用 <code>ls -l</code> 命令可以查看文件的链接数，如以下命令可以看到，链接数由 <code>1</code> 变成了 <code>2</code>。</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&gt; ls ./Downloads/ -l</span><br><span class="line">-rw-r--r--   1 anoy anoy  12G Jun  3  2018 Taxi.Driver.1976.BluRay.1080p.x265.10bit.MIKI.mkv</span><br><span class="line">&gt; ln ./Downloads/Taxi.Driver.1976.BluRay.1080p.x265.10bit.MIKI.mkv ./Movies/</span><br><span class="line">&gt; ls ./Downloads/ -l</span><br><span class="line">-rw-r--r--   2 anoy anoy  12G Jun  3  2018 Taxi.Driver.1976.BluRay.1080p.x265.10bit.MIKI.mkv</span><br></pre></td></tr></table></figure>
+<p>一部电影一般只对应一个文件，因此管理起来比较方便。但如果是电视剧，管理时一般将一部电视剧放进同一文件夹，再按照&quot;季&quot;来建立子文件夹。</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">&gt; tree ./black.mirror</span><br><span class="line">./black.mirror</span><br><span class="line">├── S01</span><br><span class="line">│   ├── Black.Mirror.S01E01.2011.1080p.WEB-DL.x265.zAzB.mkv</span><br><span class="line">│   ├── Black.Mirror.S01E02.2011.1080p.WEB-DL.x265.zAzB.mkv</span><br><span class="line">│   └── Black.Mirror.S01E03.2011.1080p.WEB-DL.x265.zAzB.mkv</span><br><span class="line">├── S02</span><br><span class="line">│   ├── Black.Mirror.S02E01.2013.1080p.WEB-DL.x265.zAzB.mkv</span><br><span class="line">│   ├── Black.Mirror.S02E02.2013.1080p.WEB-DL.x265.zAzB.mkv</span><br><span class="line">│   └── Black.Mirror.S02E03.2013.1080p.WEB-DL.x265.zAzB.mkv</span><br><span class="line">└── S03</span><br><span class="line">    ├── Black.Mirror.S03E01.2016.1080p.WEB-DL.x265.zAzB.mkv</span><br><span class="line">    ├── Black.Mirror.S03E02.2016.1080p.WEB-DL.x265.zAzB.mkv</span><br><span class="line">    ├── Black.Mirror.S03E03.2016.1080p.WEB-DL.x265.zAzB.mkv</span><br><span class="line">    ├── Black.Mirror.S03E04.2016.1080p.WEB-DL.x265.zAzB.mkv</span><br><span class="line">    ├── Black.Mirror.S03E05.2016.1080p.WEB-DL.x265.zAzB.mkv</span><br><span class="line">    └── Black.Mirror.S03E06.2016.1080p.WEB-DL.x265.zAzB.mkv</span><br></pre></td></tr></table></figure>
+<p>一切准备就绪后，可以开始制作海报墙。</p>
+<hr>
+<h1 id="3-海报的削刮"><a class="markdownIt-Anchor" href="#3-海报的削刮"></a> 3. 海报的削刮</h1>
+<p>Kodi 自带一些削刮器可以对电影和电视剧信息进行削刮，默认的电影削刮器和电视剧削刮器使用的是 <a href="https://www.themoviedb.org/" target="_blank" rel="noopener">TMDB 数据库</a>。目前对对电影数据可以很好地匹配，但是对电视剧只能检测出第一季。因此我强烈推荐以下两款削刮器。</p>
+<h2 id="3-1-universal-movie-scraper"><a class="markdownIt-Anchor" href="#3-1-universal-movie-scraper"></a> 3-1. Universal Movie Scraper</h2>
+<p><img src="/images/o_kodi_umc.png" alt="Universal Movie Scraper"></p>
+<p>实际自带的 TMDB 对新手已经足够友好，但 Universal Movie Scraper 能提供更多的选项，比较建议老鸟使用。下面是几个需要注意的地方。</p>
+<ul>
+<li>所有提示语言的地方，最好改为中文（zh）</li>
+<li>不建议使用 IMDB 引擎，推荐 TMDB （出于国内网络考虑）</li>
+<li>如果文件命名规范且文件管理严格按照上面的话，那么最好把嵌套查询关闭</li>
+</ul>
+<h2 id="3-2-the-tvdb"><a class="markdownIt-Anchor" href="#3-2-the-tvdb"></a> 3-2. The TVDB</h2>
+<p><img src="/images/o_kodi_tvdb.png" alt="The TVDB"></p>
+<p>The TVDB 是旧版本 KODI 的电视剧默认削刮器，从最新版本开始改为了 TMDB。但是目前 TMDB 削刮器还不完善，建议对电视剧还是采用 The TVDB。</p>
+<p>要吐槽的是，<a href="https://thetvdb.com/home" target="_blank" rel="noopener">TVDB</a> 的网站做得实在是特别烂，国内有很大几率连不上。建议如果真的发现检索出的结果比较差时，可以自己注册个帐号，重新修改补充数据。</p>
+<ul>
+<li>检索的时候最好挂梯子，在 KODI 的系统设置里有代理选项，支持基本的 <code>http</code> 和 <code>socks</code>  协议</li>
+<li>在设置里有修改语言的选项，默认为英文</li>
+<li>如果含有 special ，可以使用 S00 开头</li>
+<li>拿不定主意的，可以先去 TVDB 网站使用英文检索，找到对应的中文翻译</li>
+</ul>
+<hr>
+<h1 id="4-数据的导出"><a class="markdownIt-Anchor" href="#4-数据的导出"></a> 4. 数据的导出</h1>
+<p>一旦文件的信息检索成功后，建议对所有的信息进行导出备份。在系统设置中找到 <code>资料库-导出</code> 选项。KODI 提供两种导出形式，一种是多文件的，也就是说导出的文件会放在与视频文件同一目录中；另一种是单文件的，所有的文件都导出放在一个文件夹中。建议使用前者的方式导出，后者一般是在需要备份的情况下使用。</p>
+<p>数据一旦导出后，会发现在视频文件目录下会多出两类文件， 一类是后缀为 <code>nfo</code> 的文件，里面以 <code>xml</code> 格式记录了视频的信息，可以根据需要自定义；另一类是后缀为 <code>jpg</code> 的文件，是电影或电视剧的封面，同人画等图片。</p>
+<p>所有的信息均可以自定义，关于定义的规则可以在 <a href="https://kodi.wiki/view/NFO_files" target="_blank" rel="noopener">KODI WIKI</a> 找到。至此，基本的搭建方法至此结束，至于如何共享文件，如何下载文件，可以搜索关键词 <code>NAS</code>、<code>BT</code>、<code>PT</code>、<code>群晖</code>…</p>
+<p>Just enjoy!</p>
+<hr>
+<h1 id="5-补充"><a class="markdownIt-Anchor" href="#5-补充"></a> 5. 补充</h1>
+<p>前面的话题都是围绕着 KODI 来说的，主要是考虑到 KODI 丰富的自定义模块以及强大的解码能力。如果希望不局限于 KODI 的话，推荐可以考虑 <code>Plex</code>、<code>Emby</code> 这类工具。</p>
+<blockquote>
+<p>不要做工具的奴隶。</p>
+</blockquote>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/教程/" rel="tag"><i class="fa fa-tag"></i> 教程</a>
+          
+            <a href="/tags/Kodi/" rel="tag"><i class="fa fa-tag"></i> Kodi</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2020/01/21/week-20-01-21/" rel="next" title="[一周总结] ~ 除夕快乐">
+                <i class="fa fa-chevron-left"></i> [一周总结] ~ 除夕快乐
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2020/03/08/杂谈-古史与今古文之辩/" rel="prev" title="[杂谈]~上古史与今古文之辩">
+                [杂谈]~上古史与今古文之辩 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+  </div>
+
+
+          </div>
+          
+
+  
+    <div class="comments" id="comments">
+    </div>
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/images/avatar.png" alt="Liu">
+            
+              <p class="site-author-name" itemprop="name">Liu</p>
+              <div class="site-description motion-element" itemprop="description"></div>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">31</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  
+                    
+                      <a href="/categories/">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">7</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                      <a href="/tags/">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">21</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+
+          
+
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </div>
+
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-文件的命名"><span class="nav-text"> 1. 文件的命名</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-文件的管理"><span class="nav-text"> 2. 文件的管理</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-海报的削刮"><span class="nav-text"> 3. 海报的削刮</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#3-1-universal-movie-scraper"><span class="nav-text"> 3-1. Universal Movie Scraper</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-2-the-tvdb"><span class="nav-text"> 3-2. The TVDB</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#4-数据的导出"><span class="nav-text"> 4. 数据的导出</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#5-补充"><span class="nav-text"> 5. 补充</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+  
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Liu</span>
+
+  
+
+  
+</div>
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+    
+
+    
+  </div>
+
+  
+
+<script>
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+
+  
+
+
+  <script src="/js/src/utils.js?v=7.0.1"></script>
+
+  <script src="/js/src/motion.js?v=7.0.1"></script>
+
+
+
+  
+  
+
+
+  <script src="/js/src/affix.js?v=7.0.1"></script>
+
+  <script src="/js/src/schemes/pisces.js?v=7.0.1"></script>
+
+
+
+  
+  <script src="/js/src/scrollspy.js?v=7.0.1"></script>
+<script src="/js/src/post-details.js?v=7.0.1"></script>
+
+
+
+  
+
+
+  <script src="/js/src/next-boot.js?v=7.0.1"></script>
+
+
+  
+
+  
+
+  
+
+  
+  
+
+<script src="//cdn1.lncld.net/static/js/3.11.1/av-min.js"></script>
+
+
+
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: false,
+    notify: false,
+    appId: 'omNOIiYdHT3yldysxNVkrmoP-gzGzoHsz',
+    appKey: '4GjM0N4IP5Om2Rez4Wy9ncGo',
+    placeholder: '发表评论',
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: false,
+    lang: '' || 'zh-cn'
+  });
+</script>
+
+
+
+
+  
+
+
+  
+  <script>
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url).replace(/\/{2,}/g, '/');
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x"></i></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x"></i></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <script src="/lib/pangu/dist/pangu.min.js"></script>
+  <script>pangu.spacingPage();</script>
+
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>

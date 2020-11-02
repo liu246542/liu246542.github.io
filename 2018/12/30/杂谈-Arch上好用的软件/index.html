@@ -1,0 +1,1419 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html class="theme-next pisces" lang="zh-CN">
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+  
+  
+  <link rel="stylesheet" href="/lib/Han/dist/han.min.css">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="/css/main.css?v=7.0.1">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.0.1">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.0.1">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.0.1">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=7.0.1" color="#222">
+
+
+
+
+
+
+
+<script id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '7.0.1',
+    sidebar: {"position":"left","display":"always","offset":12,"onmobile":false,"dimmer":false},
+    back2top: true,
+    back2top_sidebar: false,
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="keywords" content="Linux">
+<meta property="og:type" content="article">
+<meta property="og:title" content="[杂谈] Arch 上好用的软件">
+<meta property="og:url" content="https://nerdliu.cyou/2018/12/30/杂谈-Arch上好用的软件/index.html">
+<meta property="og:site_name" content="Lius blog">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https://nerdliu.cyou/images/m_archup.png">
+<meta property="og:image" content="https://nerdliu.cyou/images/o_pacman.jpg">
+<meta property="og:image" content="https://nerdliu.cyou/images/o_typora.png">
+<meta property="og:image" content="https://nerdliu.cyou/images/m_wechat.png">
+<meta property="og:image" content="https://nerdliu.cyou/images/o_tgmsg.png">
+<meta property="og:image" content="https://nerdliu.cyou/images/m_tgstick.png">
+<meta property="og:image" content="https://nerdliu.cyou/images/o_heartline.png">
+<meta property="og:image" content="https://nerdliu.cyou/images/o_vivaldi.png">
+<meta property="og:image" content="https://nerdliu.cyou/images/o_notevalidi.png">
+<meta property="og:image" content="https://nerdliu.cyou/images/o_qcomic.png">
+<meta property="og:updated_time" content="2020-11-02T16:32:49.117Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="[杂谈] Arch 上好用的软件">
+<meta name="twitter:image" content="https://nerdliu.cyou/images/m_archup.png">
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Lius blog" type="application/atom+xml">
+
+
+
+  
+  
+  <link rel="canonical" href="https://nerdliu.cyou/2018/12/30/杂谈-Arch上好用的软件/">
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>[杂谈] Arch 上好用的软件 | Lius blog</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+    <a href="https://nerdliu.cyou/cryp_study_note/"><img style="position: absolute;top: 0;right: 0;border: 0;z-index: 9999" width="149" height="149" src="/images/sp_bannar.png" class="attachment-full size-full" alt="Switch to my Notes" data-recalc-dims="1"></a>
+    
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Lius blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+      
+        <p class="site-subtitle">汉武秋风辞意健
+英雄何须叹华年</p>
+      
+    
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+
+    
+    
+    
+      
+    
+
+    
+      
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+
+    
+    
+    
+      
+    
+
+    
+      
+    
+
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类<span class="badge">7</span></a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+    
+      
+    
+
+    
+      
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档<span class="badge">31</span></a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+
+    
+    
+    
+      
+    
+
+    
+      
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签<span class="badge">21</span></a>
+
+  </li>
+
+      
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>搜索</a>
+        </li>
+      
+    </ul>
+  
+
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+            
+
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://nerdliu.cyou/2018/12/30/杂谈-Arch上好用的软件/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Liu">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Lius blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">[杂谈] Arch 上好用的软件
+
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-12-30 13:29:01" itemprop="dateCreated datePublished" datetime="2018-12-30T13:29:01+08:00">2018-12-30</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2020-11-03 00:32:49" itemprop="dateModified" datetime="2020-11-03T00:32:49+08:00">2020-11-03</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/折腾小记/" itemprop="url" rel="index"><span itemprop="name">折腾小记</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">评论数：</span>
+                <a href="/2018/12/30/杂谈-Arch上好用的软件/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/12/30/杂谈-Arch上好用的软件/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body han-init-context" itemprop="articleBody">
+
+      
+      
+
+      
+        <!-- ![archer](https://www.picgd.com/images/2018/12/30/0bPJ0.gif) -->
+<p><img src="/images/m_archup.png" alt="archer"></p>
+<a id="more"></a>
+<p>Arch Linux 作为 Linux 众多发行版中的一朵奇葩，拥有着一个庞大的软件库，有篇文章 ➢<a href="https://www.lulinux.com/archives/2787" target="_blank" rel="noopener">什么Linux发行版软件最多</a> 就比较了debian系，red-hat系和Arch系的软件库。很明显可以看到Arch在软件库方面的强大之处。所以今天的标题中强调的是Arch，虽然其他版本的Linux也可以使用这些软件，但在Arch上面，一句命令就可以安装好。</p>
+<p>在介绍软件之前，先由我简单解释下Arch上软件库庞大的原因，然后再介绍下Arch上安装软件的一些基本命令。</p>
+<hr>
+<h1 id="0-aur-和-pacman"><a class="markdownIt-Anchor" href="#0-aur-和-pacman"></a> 0. Aur 和 pacman</h1>
+<p><small>“等等， pacman 不是吃豆人那个单词吗？”</small></p>
+<p><img src="/images/o_pacman.jpg" alt="pacman"></p>
+<p>Aur，即 Arch user repository 的缩写，翻译过来就是arch用户的软件仓库。之所以Arch上的软件那么丰富，其中一个主要原因就是Arch上使用的仓库来源于用户的创建。Arch官方会定期从中挑选一些软件包到<em>community</em>仓库。正是因为这种由用户主导的方式，Arch上的软件库才会一枝独秀。</p>
+<p>安装官方的软件，需要用到的基本命令就是 <code>pacman</code>，如果安装Aur中的软件包(囊括了官方的仓库)，我比较推荐使用 <code>yay</code>。二者使用方法一致，唯一的区别就是 <code>yay</code> 不需要在命令前加上 <code>sudo</code>，一般是等后面有提示的时候再输入密码。</p>
+<p>常用的一些命令有：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$ yay -Su # 升级软件库</span><br><span class="line">$ yay -Sy # 更新软件库</span><br><span class="line">$ yay -Syy # 强制更新软件库</span><br><span class="line">$ yay -Ss &lt;key words&gt; # 搜索命令</span><br><span class="line">$ yay -S &lt;package name&gt; # 安装命令</span><br><span class="line">$ yay -R &lt;package name&gt; # 卸载命令</span><br></pre></td></tr></table></figure>
+<p>常用的就这几个命令，相比从网站上下载源码编译，或下载deb包安装，又或添加一个的ppa来安装的方式，Arch简直就是懒人的福利。</p>
+<p>官方的wiki提供了一个比较全的列表，我接下来介绍的一些软件纯属个人平时觉得比较好用的，当然更全面的还是参考这个列表➢<a href="https://wiki.archlinux.org/index.php/List_of_applications" target="_blank" rel="noopener">List of applications</a>。</p>
+<hr>
+<h1 id="1-freeoffice"><a class="markdownIt-Anchor" href="#1-freeoffice"></a> 1. FreeOffice</h1>
+<p><small>一个office的替代品，➢<a href="https://www.freeoffice.com/en/" target="_blank" rel="noopener">官方地址</a></small></p>
+<!-- ![FreeOffice](https://www.picgd.com/images/2018/12/31/01c17.png) -->
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yay -S freeoffice</span><br></pre></td></tr></table></figure>
+<p>Linux 上有许多office的替代品，比如wps，libreoffice等。但是我比较满意的还是这款叫做 freeoffice的软件。个人觉得编辑的工作还是交给 Windows，在Linux上就进行简单的查看工作就行了。相比于其它同类型的软件，freeoffice的兼容性还是比较不错的。</p>
+<p><strong>值得注意的是，第一次安装后打开需要输入激活密钥，而密钥需要在官网输入自己的邮箱获取。</strong></p>
+<hr>
+<h1 id="2-typora"><a class="markdownIt-Anchor" href="#2-typora"></a> 2. Typora</h1>
+<p><small>最好用的<code>markdown</code>编辑器</small></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yay -S typora</span><br></pre></td></tr></table></figure>
+<p>Typora 是一款基于 <code>markdown</code> 语法的文字编辑器。不同于传统的双栏显示， Typora 真正意义上做到了所见即所得。</p>
+<p>Typora 的功能十分强大，对数学公式的支持也很好，而且 ➢<a href="https://theme.typora.io/" target="_blank" rel="noopener">官网上</a> 有多种主题提供下载，有能力的也可以自己编辑 <code>css</code>文件，创造属于自己的样式。</p>
+<p><img src="/images/o_typora.png" alt="'typora-themes'"></p>
+<p>这里补充一句，Typora支持全平台，所以说它是最好用的 <code>markdown</code> 编辑器也不为过。</p>
+<hr>
+<h1 id="3-telegram"><a class="markdownIt-Anchor" href="#3-telegram"></a> 3. Telegram</h1>
+<p><small>我跟微信boy聊不来的，走了</small></p>
+<p><img src="/images/m_wechat.png" alt="wechat-boy"></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yay -S telegram</span><br></pre></td></tr></table></figure>
+<p>如果让我推荐一款聊天软件，那我首先推荐的就是telegram，中文翻译为<code>电报</code>，圈内简称为<code>tg</code>(不要跟那个<code>tg</code>混淆)。</p>
+<p>我使用<code>tg</code>的时间并不长，但自从用了之后就欲罢不能。相比于微信来说，它有两个最大的优势，一是全平台，几乎所有的平台都有桌面客户端；二是消息同步，不同于微信蹩脚的消息同步机制，<code>tg</code>几乎能看到所有的历史消息(甚至在没有加群之前，群内的消息也是可以看到的)。<code>tg</code>有一个很强大的后盾，即机器人(<code>bot</code>)的功能。</p>
+<p><code>tg</code>上的机器人主要是推送消息用的，有点像微信的公众号的作用。由于<code>tg</code>的开放性，用户可以获取到许多未经“审查”的信息。另外，用户也可以自己构造机器人，只要有点编程的知识，这个也不是很困难的事。</p>
+<p><img src="/images/o_tgmsg.png" alt="tg-bot"></p>
+<p><code>tg</code>自由开放的特点注定它不能在中国使用的。但官方给出了<code>MTproxy</code>协议，让我等屁民可以一窥<code>tg</code>的全貌。据说这个协议对外进行了悬赏，以证明其拥有足够的安全性。源码地址见<a href="https://github.com/TelegramMessenger/MTProxy" target="_blank" rel="noopener">gayhub</a>，对于<code>Debian</code>系用户，按照过程一步步搭建应该没问题，但对于<code>Red Hat</code>系用户，我之前有遇到<code>g++</code>版本太低的问题，可以参考➢<a href="https://www.rogoso.info/mtproxy-for-telegram/" target="_blank" rel="noopener">配置MTProxy来访问Telegram</a>解决。</p>
+<blockquote>
+<p>另外，<code>tg</code>上的贴纸真的很有趣。</p>
+</blockquote>
+<p><img src="/images/m_tgstick.png" alt="six-pics"></p>
+<hr>
+<h1 id="4-geogebra"><a class="markdownIt-Anchor" href="#4-geogebra"></a> 4. GeoGebra</h1>
+<p><small>都9102年了，你还在用几何画板？</small></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yay -S geogebra</span><br></pre></td></tr></table></figure>
+<p>记得上初中的时候，我们用的教科书上还有介绍<code>几何画板</code>这个工具，当时还颇感震撼。<code>GeoGebra</code>就是很类似的一款软件。当然，由于几何画板收费的缘故，我一直没有机会使用，但<code>GeoGebra</code>还是非常容易上手的，而且也支持全平台。平时如果想画一些简单的函数图像，而且不想靠编程实现的话，可以考虑一下。</p>
+<p><img src="/images/o_heartline.png" alt="heartline"></p>
+<blockquote>
+<p>知乎上的 <a href="https://www.zhihu.com/people/matongxue/activities" target="_blank" rel="noopener">马同学</a> 就凭借着这款软件画得一手好图，大家可以参考参考。</p>
+</blockquote>
+<hr>
+<h1 id="5-tor-browser"><a class="markdownIt-Anchor" href="#5-tor-browser"></a> 5. Tor browser</h1>
+<p><small>上暗网？下它就对了</small></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yay -S tor-browser</span><br></pre></td></tr></table></figure>
+<p>前些日子网传<code>12306</code>网站出现用户信息泄漏，这些数据最初是挂在暗网上贩卖的。大家肯定比较好奇怎么才能打开暗网网站。这里需要用到的就是<code>Tor</code>浏览器，中文一般称为洋葱浏览器。在中国使用<code>Tor</code>还需要挂代理，而且一般打开网页的速度会很慢。</p>
+<p>除了访问暗网，我们也可以使用<code>Tor</code>浏览器来保护我们个人的隐私。</p>
+<blockquote>
+<p>顺带贴一下中文交易论坛的地址 ➢<a href="http://deepmix3m7iv2vcz.onion/" target="_blank" rel="noopener">暗网市场交易站</a> ，不要干坏事哟。</p>
+</blockquote>
+<hr>
+<h1 id="6-vivaldi-浏览器"><a class="markdownIt-Anchor" href="#6-vivaldi-浏览器"></a> 6. Vivaldi 浏览器</h1>
+<p><small>“极客浏览器”</small></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yay -S vivaldi</span><br></pre></td></tr></table></figure>
+<p>如今浏览器的市场俨然成为了Chrome的天下，我个人也比较推荐使用Chrome或Chromium浏览器作为个人电脑的默认浏览器。今天在这里推荐的Vivaldi浏览器可能大家没怎么听过，虽然它也是基于Chrome的内核，但有着丰富的可定制内容，其最强大的就属于侧边栏的加入。</p>
+<p><img src="/images/o_vivaldi.png" alt="slid_bar_01"></p>
+<p>侧边栏可以放置任意的网页面板，像这样，我们可以在浏览网页的同时，听着自己喜欢的音乐。或者也可以打开一个Bing词典面板，这样碰到一些生词可以比较方便地进行查询。</p>
+<p><img src="/images/o_notevalidi.png" alt="slid_bar_notes"></p>
+<p>另外一个比较实用的就是笔记功能，用户可以随时随地记下自己的笔记，而且可以任意地进行截图。笔记的语法基于<code>markdown</code>，因此上手基本零难度。</p>
+<p>其它的比如自带截图，自带鼠标手势这些我就不一一赘述了，毕竟在很多国产浏览器中这些功能属于“标配”。更多自定义的东西大家可以自己去探索，总体来说，这款浏览器还是非常良心的。</p>
+<blockquote>
+<p>另外，老毛子的 Yandex 浏览器也挺好用的，而且是全平台的。</p>
+</blockquote>
+<hr>
+<h1 id="7-peek"><a class="markdownIt-Anchor" href="#7-peek"></a> 7. Peek</h1>
+<p><small>“Linux上的GifCam”</small></p>
+<!-- !['peek_present'](https://www.picgd.com/images/2019/01/05/0NJhJ.gif) -->
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yay -S peek</span><br></pre></td></tr></table></figure>
+<p>Windows上有一款神器 ➢<a href="http://blog.bahraniapps.com/gifcam/" target="_blank" rel="noopener">GifCam</a>，可以录制屏幕为GIF动图格式。在Linux上也有着类似的一款工具 Peek。界面非常简洁，大家直接上手使用即可。</p>
+<blockquote>
+<p>顺带吐槽一下Ubuntu，竟然没有在软件库中加入Peek。</p>
+</blockquote>
+<hr>
+<h1 id="8-qcomicbook"><a class="markdownIt-Anchor" href="#8-qcomicbook"></a> 8. QComicBook</h1>
+<p><small>漫画爱好者的福音</small></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yay -Ss qcomicbook</span><br></pre></td></tr></table></figure>
+<p>本人很喜欢看漫画，以前用Windows的时候还购买了<a href="https://www.microsoft.com/zh-cn/p/cover-comic-reader/9wzdncrfj9w7?activetab=pivot:overviewtab" target="_blank" rel="noopener">Cover-漫画阅读器</a>，后来转战Linux，才发现有免费的软件，也就是 <em>QComicBook</em>，基本能够满足我的要求。</p>
+<p><img src="/images/o_qcomic.png" alt="QcomicBook"></p>
+<blockquote>
+<p>开源软件就是好，感觉自己又亏了。</p>
+</blockquote>
+<hr>
+<h1 id="9-网盘"><a class="markdownIt-Anchor" href="#9-网盘"></a> 9. 网盘</h1>
+<p><small>8秒视频了解一下</small></p>
+<p>提到网盘，大家首先会想到的是 <code>百度网盘</code>，<code>Onedrive</code>，<code>Dropbox</code>等一些比较主流的网盘。现在国内的网盘并不好做，说不定哪一天发个通知就溜了。我也尝试着搭建自己的网盘，比如像<a href="https://www.seafile.com/home/" target="_blank" rel="noopener">seafile</a>和<a href="https://nextcloud.com/" target="_blank" rel="noopener">nextcloud</a>。用了一段时间的 seafile，发现自己最需要的就只有两个功能：</p>
+<ul>
+<li>类似git的 <strong>版本控制</strong></li>
+<li>直接挂载成 <strong>本地磁盘</strong></li>
+</ul>
+<p>我对容量要求不高，因此有两个网盘比较适合我，一是国外的 ➢<a href="https://mega.nz/" target="_blank" rel="noopener">mega</a>，另外一个就是国内的 ➢<a href="https://www.jianguoyun.com/" target="_blank" rel="noopener">坚果云</a>。</p>
+<p>一句话安装：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yay -S megasync nutstore</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Linux/" rel="tag"><i class="fa fa-tag"></i> Linux</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/12/21/week-18-12-21/" rel="next" title="[一周总结]18-12-21">
+                <i class="fa fa-chevron-left"></i> [一周总结]18-12-21
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/01/19/week-19-01-19/" rel="prev" title="[一周总结]19-01-19">
+                [一周总结]19-01-19 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+  </div>
+
+
+          </div>
+          
+
+  
+    <div class="comments" id="comments">
+    </div>
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/images/avatar.png" alt="Liu">
+            
+              <p class="site-author-name" itemprop="name">Liu</p>
+              <div class="site-description motion-element" itemprop="description"></div>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">31</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  
+                    
+                      <a href="/categories/">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">7</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                      <a href="/tags/">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">21</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+
+          
+
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </div>
+
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#0-aur-和-pacman"><span class="nav-text"> 0. Aur 和 pacman</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#1-freeoffice"><span class="nav-text"> 1. FreeOffice</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-typora"><span class="nav-text"> 2. Typora</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-telegram"><span class="nav-text"> 3. Telegram</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#4-geogebra"><span class="nav-text"> 4. GeoGebra</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#5-tor-browser"><span class="nav-text"> 5. Tor browser</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#6-vivaldi-浏览器"><span class="nav-text"> 6. Vivaldi 浏览器</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#7-peek"><span class="nav-text"> 7. Peek</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#8-qcomicbook"><span class="nav-text"> 8. QComicBook</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#9-网盘"><span class="nav-text"> 9. 网盘</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+  
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Liu</span>
+
+  
+
+  
+</div>
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+    
+
+    
+  </div>
+
+  
+
+<script>
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+
+  
+
+
+  <script src="/js/src/utils.js?v=7.0.1"></script>
+
+  <script src="/js/src/motion.js?v=7.0.1"></script>
+
+
+
+  
+  
+
+
+  <script src="/js/src/affix.js?v=7.0.1"></script>
+
+  <script src="/js/src/schemes/pisces.js?v=7.0.1"></script>
+
+
+
+  
+  <script src="/js/src/scrollspy.js?v=7.0.1"></script>
+<script src="/js/src/post-details.js?v=7.0.1"></script>
+
+
+
+  
+
+
+  <script src="/js/src/next-boot.js?v=7.0.1"></script>
+
+
+  
+
+  
+
+  
+
+  
+  
+
+<script src="//cdn1.lncld.net/static/js/3.11.1/av-min.js"></script>
+
+
+
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: false,
+    notify: false,
+    appId: 'omNOIiYdHT3yldysxNVkrmoP-gzGzoHsz',
+    appKey: '4GjM0N4IP5Om2Rez4Wy9ncGo',
+    placeholder: '发表评论',
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: false,
+    lang: '' || 'zh-cn'
+  });
+</script>
+
+
+
+
+  
+
+
+  
+  <script>
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url).replace(/\/{2,}/g, '/');
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x"></i></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x"></i></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <script src="/lib/pangu/dist/pangu.min.js"></script>
+  <script>pangu.spacingPage();</script>
+
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>

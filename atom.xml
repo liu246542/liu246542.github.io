@@ -7,7 +7,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nerdliu.cyou/"/>
-  <updated>2024-01-14T15:57:45.687Z</updated>
+  <updated>2024-01-22T16:00:51.527Z</updated>
   <id>https://nerdliu.cyou/</id>
   
   <author>
@@ -16,6 +16,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>[一周总结] ~ 假作真时真亦假</title>
+    <link href="https://nerdliu.cyou/2024/01/21/week-24-01-21/"/>
+    <id>https://nerdliu.cyou/2024/01/21/week-24-01-21/</id>
+    <published>2024-01-21T14:48:37.000Z</published>
+    <updated>2024-01-22T16:00:51.527Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="/images/week_240121/cover.jpg" alt="cover"></p><a id="more"></a><p>趁着上周装完电脑，这周体验了一下「半衰期：爱莉克斯」，结果一发不可收拾，整周都沉迷其中。甚至连做梦都是游戏中的场景。目前游戏进度已经过了一半，今天就跟大家分享一下我的游玩感受。</p><hr><h1 id="1-交互"><a class="markdownIt-Anchor" href="#1-交互"></a> 1. 交互</h1><p><small>VR 游戏的灵魂</small></p><p>讨论到 VR 游戏与传统的电子游戏，那最大的不同就是交互的方式。在传统电子游戏中，玩家使用键鼠或手柄来进行操作，而在 VR 游戏中，玩家本身就是参与操作的一部分。游戏中角色的运动会随着玩家自身的改变而改变。比如我在游戏中需要经过低矮的管道，这就需要我自己猫着腰甚至蹲下来缓慢移动过去。这些交互方式无疑为玩家带来了全新的体验，但同时也带给玩家很多新的问题。</p><p>第一个问题是以往只需要一个按键解决的事现在需要一个略显繁琐的流程完成。最典型的就是换子弹。在大多数游戏中，换子弹只需要按一个按键就能搞定，但在「半衰期：爱莉克斯」中，换子弹需要经过：<code>弹出旧弹匣</code>-&gt;<code>从背包中掏出新弹匣</code>-&gt;<code>装入新弹匣</code>-&gt;<code>拉枪栓</code>。我记得在第一次碰到敌人的时候，就遭遇了右手手枪还没弹出旧弹匣，左手拿着新弹匣怼不进去的窘迫。当然，在游戏中后期，当我开始熟悉了这一套流程之后，这个问题也就不复存在。</p><p>第二个问题出现在与陌生的物体进行交互时。前面提到的身体的蹲起，换子弹这些操作都是在我们本能的理解范围内。游戏中也有许多需要拉开门，按动电梯等我们日常中会做的一些操作。但一旦游戏中出现了现实中不存在的事物，这时候就需要玩家去揣测制作人的脑回路了。比如我第一次在启动隔离区大门时，就在拿电池的机关前思考了很久才明白它的意图。正因为操作空间太大，遇到一些不熟悉的东西就无所适从。尽管在游戏中有一些暗示，但我能从中获得的信息量实在太少。不过这款游戏好在所有的操作在逻辑上存在一致性，所以只要搞明白了一种，那后面的操作也就很自然了。</p><p>要说到「半衰期：爱莉克斯」中最富有革命意义的设计，那绝对是重力手套。如果我们还是按照原本 VR 的思路去设计搜刮物品的动作，大概就是<code>移动到物品所在处</code>-&gt;<code>弯下腰</code>-&gt;<code>捡起来</code>三个步骤。在爱莉克斯中，这个过程只需要玩家对准物品按下扳机键用力一拉就能解决。这种操作有点蜘蛛侠的感觉，这也可能是我觉得这款游戏中最富有想象力的设计。这套操作逻辑还可以在不同场景下衍生出花式玩法，比如在空中拦截敌人的手榴弹。对我来说，这样的操作给我的新奇感就像第一次用joycon玩超级马力欧奥德赛，打开了新世界的大门。</p><hr><h1 id="2-氛围"><a class="markdownIt-Anchor" href="#2-氛围"></a> 2. 氛围</h1><p><small>真实的不真实</small></p><p>我自认为是一个比较能适应恐怖游戏的玩家。但在「半衰期：爱莉克斯」面前，其他我玩过的恐怖游戏就显得黯然失色。一开始我没有想到「半衰期：爱莉克斯」中会这么恐怖，我对它的预期是一个射击类游戏。但当我第一次看到猎头蟹的时候，双手开始不克制地发抖，两腿发软，毛发悚立，头皮发麻。即使之前玩的「逃生」系列也没有给我带来这么强的身体反应。有几次我想放弃打通这个游戏，但在好奇心的驱动下，我还是越过了这个坎（至少目前是这样）。</p><p>VR 对恐怖氛围的营造有一定的加持，尤其前面提到的沉浸式操作，也更容易让玩家代入其中。「半衰期：爱莉克斯」在画面上几乎无可挑剔，各种光影效果做得几乎能以假乱真。同时，游戏中也会出现很多现实中不存在的生物，比如猎头蟹，藤壶怪。也有很多场景上覆满了各种粘膜状的生物。这些现实中不存在的生物或场景如果放在显示器上，我可能不会有太多感觉。一旦放在VR中，这种强烈的真实感让我感到生理上的不适。</p><p>幸运的是，「半衰期：爱莉克斯」中对恐怖氛围的渲染维持在一个比较克制的水平。首先从敌人的设计上来说，虽然「半衰期：爱莉克斯」中有很多猎奇的生物，但相比其他恐怖游戏（比如生化危机），它们在反应速度上会更慢，一次出现的数量也不会太多。所以玩家还是有一定的时间来想好应对措施。其次，「半衰期：爱莉克斯」不会一上来就让玩家进入恐怖感拉满的场景，而是采用循序渐进的方式。玩家在不知不觉之中会逐渐适应「半衰期：爱莉克斯」塑造的环境。这点在下一节也会提到。</p><p>即便如此，我还是不推荐普通玩家直接上手这款游戏。但如果能坚持打完第三章，那后面就基本没什么问题。</p><hr><h1 id="3-引导"><a class="markdownIt-Anchor" href="#3-引导"></a> 3. 引导</h1><p><small>知其所以然</small></p><p>在我看来，「半衰期：爱莉克斯」在游戏引导上已经属于一流的水准。游戏中很多地方都体现出循序渐进的设计思路，这一点与任天堂的超级马力欧兄弟系列如出一辙。比如玩家在打电鳐狗（抱歉，实在不知道那个怪物叫什么名字）的时候，第一次碰见它被栏杆围住，所以玩家很自然处于安全状态，有充分时间去适应。第二次碰见它，它已经可以四处活动，并附身在尸体上。但由于尸体活动缓慢，玩家依然能找到对策将其击毙。第三次碰见它，已经是两只围着一堆尸体进行附身，有了前两次的经验，玩家应对起来就轻车熟路。</p><p>在各种解谜上也是类似的做法，比如第一次是简单的解谜，下一次会在前面的基础上增加难度，再下一次又会有所提升。每一次都会增加一点难度，到最后当玩家解开特别复杂的谜题时，获得的成就感也就大大提升。</p><p>游戏在地图上的引导无处不在，最典型的就是颜色标识。比如窗户把手，电梯按钮，各种电线等等。所以在游戏中我基本没有遇到迷路的情况。但它在地图上的标记也不是那种特别明显的，经常需要玩家进行思考。我之所以喜欢玩解谜类游戏，是因为我很享受这种思考的过程。就像以前做题的时候能看透出题人的小心思，这种感受对我来说很有意思。所以我一直不是很喜欢查攻略，查攻略给我的感觉就是做题时抄答案。但对我来说，知道答案并不是重点，重点发现答案的过程。</p><hr><p>目前我是打到了第六章，看网上说是一共十一章，所以目前我的进度已经过半。总体来说体验非常棒，而且每一章都没有什么重复的内容。我在玩到两个地方的时候曾考虑过放弃，一个是在拿到手电筒之后，整个场景都是黑漆漆一片；另一个是在弹尽粮绝之际被一堆怪物包围。前者我做了一晚上心理工作才敢拿起手电筒继续上路，后者凭借我的凌波微步硬是从怪物的包围圈中逃了出来并成功拿到一把冲锋枪。按照目前的进度，估计还有一周时间我就能通关了。回想起来，这两个坎我都能迈过去，后面还有啥可怕的呢。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/week_240121/cover.jpg&quot; alt=&quot;cover&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="管中窥豹" scheme="https://nerdliu.cyou/categories/%E7%AE%A1%E4%B8%AD%E7%AA%A5%E8%B1%B9/"/>
+    
+    
+      <category term="杂记" scheme="https://nerdliu.cyou/tags/%E6%9D%82%E8%AE%B0/"/>
+    
+      <category term="一周总结" scheme="https://nerdliu.cyou/tags/%E4%B8%80%E5%91%A8%E6%80%BB%E7%BB%93/"/>
+    
+      <category term="VR" scheme="https://nerdliu.cyou/tags/VR/"/>
+    
+  </entry>
   
   <entry>
     <title>[一周总结] ~ 未来道具 + 1 &lt;del&gt;s&lt;/del&gt;</title>
@@ -486,30 +512,6 @@
     <summary type="html">
     
       &lt;p&gt;&lt;img src=&quot;/images/c_ninestar.png&quot; alt=&quot;nine_guichu_stars&quot;&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="管中窥豹" scheme="https://nerdliu.cyou/categories/%E7%AE%A1%E4%B8%AD%E7%AA%A5%E8%B1%B9/"/>
-    
-    
-      <category term="杂记" scheme="https://nerdliu.cyou/tags/%E6%9D%82%E8%AE%B0/"/>
-    
-      <category term="一周总结" scheme="https://nerdliu.cyou/tags/%E4%B8%80%E5%91%A8%E6%80%BB%E7%BB%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[每月总结]19-03-30</title>
-    <link href="https://nerdliu.cyou/2019/03/30/%E6%AF%8F%E6%9C%88%E6%80%BB%E7%BB%93-2019-03-30/"/>
-    <id>https://nerdliu.cyou/2019/03/30/每月总结-2019-03-30/</id>
-    <published>2019-03-30T10:08:23.000Z</published>
-    <updated>2020-12-03T14:18:54.656Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="/images/c_biyesj.png" alt="gandiThesis"></p><a id="more"></a><p>这个月主要忙于赶毕业论文，很多东西都没来得及打理，立下的诸多flags也没有完成，外加对游戏失去了兴趣，想想活着真痛苦啊。</p><blockquote><p>“That which does not kill us, makes us stronger.”  – Friedrich Nietzsche</p></blockquote><p>不管怎么样，总结还是要写滴。本来是打算周更的博客，硬是被我写成了月更。好吧，那就看看<s>这个月</s>上个月的沙雕总结。</p><p><img src="/images/m_lifevsme.png" alt="lifevsme"></p><hr><h1 id="1-微小的工作"><a class="markdownIt-Anchor" href="#1-微小的工作"></a> 1. 微小的工作</h1><p><small>“很惭愧，只做了微小的工作”</small></p><p>这个月除了写论文也没干别的，硬是要说的话，大概有这三件事：</p><ol><li>新建了一个笔记系统，使用的是 <a href="https://www.mkdocs.org/" target="_blank" rel="noopener">MkDocs</a>，主要是对之前的学习做一些总结，初衷还是为了提高自己的知识水平。地址 ➢<a href="https://liusblog.club/cryp_study_note/" target="_blank" rel="noopener">Lius Notes</a>；</li><li>把博客界面进行了小改，所有的源文件也同步到了 Github 上，这里就不贴地址了，背景用的是本科时候自己仿的一段 CSS 代码，当时沉迷于一本叫做 <a href="https://book.douban.com/subject/26745943/" target="_blank" rel="noopener">CSS揭秘</a> 的书籍，用的就是其中的技巧；</li><li>把以前荒废的直播间重开了起来，重点是这次加入了弹幕，直播地址 ➢<a href="https://live.bilibili.com/875387" target="_blank" rel="noopener">Bilibili</a>，用到的工具有 <a href="https://github.com/m13253/danmaku2ass" target="_blank" rel="noopener">danmaku2ass</a> 和 <a href="https://ffmpeg.org/" target="_blank" rel="noopener">ffmpeg</a>。</li></ol><p>如果说还做了点什么事，就是把 <strong>鬼泣5</strong> 过了一周目，这对我来说是很有意义的。因为期待了好几年了，这次 <s>冷饭之王</s> <strong>动作天尊</strong> 卡普空 也没有让玩家失望。通完一周目之后开始对游戏很消极，只有塞尔达传说能给我带来一点乐趣，但这些都是次要的，这个月主要就上面这三件事，很惭愧，就做了点微小的工作。</p><hr><h1 id="2-先锋文学"><a class="markdownIt-Anchor" href="#2-先锋文学"></a> 2. 先锋文学</h1><p><small>本质上说，我是一个离经叛道的人</small></p><p>在完成论文和速通了游戏之后，整个人仿佛进入了“贤者模式”，对任何事物都提不起兴趣。在提不起劲的日子里，人就比较容易成为一个哲学家，脑子里会充斥着光怪陆离的想法。我回想起高中时代的日子，那时候我偏爱余华的短篇小说，像 <em>十八岁出门远行</em>，<em>古典爱情</em> 这类。这是我第一次接触先锋文学，瞬间就迷上了这种荒诞不羁，直接露骨的叙述方式。<br>本质上说，我是一个离经叛道的人，先锋文学在某种意义上助长了我的离经叛道。就个人而言，我比较喜欢 <em>古典爱情</em> 这篇。主要讲述的是书生与小姐的故事，外加一个丫鬟刚好是西厢记的标准配置。同时夹杂着肢解、食人肉这些桥段，最后当我以为是大团圆的结局时，又笔锋一转，打破传统的故事模式。总体来说，余华在写起故事来有如行云流水一般，一个荒诞的故事总能在他的笔下显得那么自然。印象里还有一篇名为 <em>一九八六年</em>，围绕着中国古代的五刑描述了70年代那场运动带来的创伤。<br>相比于之前“哭哭啼啼”式的伤痕文学，先锋派就像一把流星锤，直击对手的软肋。</p><blockquote><p>我记得自己在外面高高兴兴地玩了半天，然后我回家了，在窗外看到父亲正在屋内整理一个红色的背包，我扑在窗口问：“爸爸，你要出门？”<br>父亲转过身来温和地说：“不，是让你出门。”<br>“让我出门？”<br>“是的，你已经十八了，你应该去认识一下外面的世界了。”<br>后来我就背起了那个漂亮的红背包，父亲在我脑后拍了一下，就像在马屁股上拍了一下。于是我欢快地冲出了家门，像一匹兴高采烈的马一样欢快地奔跑了起来。<br><span style="display: block; float: right"> ————《十八岁出门远行》</span></p></blockquote><hr><h1 id="3-世嘉"><a class="markdownIt-Anchor" href="#3-世嘉"></a> 3. 世嘉</h1><p><small>万年老二</small></p><p>自从接触了如龙系列，开始对世嘉（SEGA）这个公司产生了兴趣。以前我对世嘉没有太深刻的印象，只知道他们出过一个名为 MD 的主机。通过翻看前几次的主机大战，我开始同情世嘉惨痛的经历。像世嘉这样的 “耿直boy” 要在激烈的市场竞争中存活下来实在太难了，尤其遇上了任天堂和索尼这种对手。</p><p><img src="/images/m_nintendo_sega.jpg" alt="SEGA.VS.NINTENDO"></p><p>故事可以追溯到上世纪80年代，自从雅达利崩溃之后，任天堂抓住时机一跃成为家用机霸主。在任天堂一家独大的日子里，早期的第三方游戏厂商只能向其俯首称臣，屈服在老任的霸王条款之下。这些第三方厂商中有我们耳熟能详的 CAPCOM （卡普空，卡表，冷饭王）、KONAMI （科乐美）、NAMCO（南梦宫）、Square （史克威尔）等等，只是除了世嘉。</p><p>世嘉当时推出了自己的第一款家用游戏机 SG-1000 来对抗老任的 FC 红白机。SG-1000 在硬件设计上远不及红白机 （老任的控制器设计得很完美），而且由于缺少游戏内容的支持（游戏开发商基本都被任天堂垄断了），最终以惨败收场。</p><p>在任天堂推出了掌机 GameBoy 系列之后，“头铁”的世嘉以不服输的气势推出了自己的掌机 Game Gear，并顺带嘲讽了GameBoy的黑白无背光屏幕。但 Game Gear因为糟糕的续航和缺少足够的第三方游戏输给了 GameBoy。</p><p>随着游戏主机第五世代的到来，世嘉也迎来了新的对手——索尼。索尼是上世纪90年代中期开始进军家用机行业的，今天已经是游戏主机三巨头之一了。所以结局很明显，世嘉以 SEGA Saturn 和 Dreamcast 来分别对抗索尼的 PS1 和 PS2，最终均以彻底失败告终。与任天堂不同，索尼选择了乘胜追击，一举将世嘉彻底打垮。从此世嘉只专注于游戏软件的开发，为其它平台提供自己的游戏。</p><p>在这几次的游戏主机大战中，世嘉始终选择以正面对抗对手，当自己的硬件做的不够好的时候，就努力提高硬件性能（至少世嘉后面出的几台主机在性能上不比当时其它主机弱的）；当软件（游戏）不及的时候，努力研发游戏，也拥有了像 索尼克 和 莎木 这样的 IP。世嘉不是那种不会反思的公司，他们已经在不断地改进，只是遇到了两个“神”级的对手。在欧美市场，还是有不少的世嘉粉丝。很遗憾的是，我没有机会接触这个时代，因此也很难体会当 莎木3 公布的时候他们激动的心情。对他们来说，世嘉已经不止是一家公司，更象征着一个符号，一种始终坚持梦想的“硬派”精神。世嘉，虽败犹荣！</p><blockquote><p>“我们可以一次一次去撞南墙，我们不能一个一个失去理想。”</p></blockquote><p><strong>参考资料：</strong></p><blockquote><p><a href="https://www.bilibili.com/video/av44744201/" target="_blank" rel="noopener">游戏主机战争 ~ Bilibili</a><br><a href="https://zh.wikipedia.org/wiki/%E9%9B%BB%E5%AD%90%E9%81%8A%E6%88%B2%E5%8F%B2" target="_blank" rel="noopener">电子游戏史 ~ Wikipedia</a><br><a href="https://zhuanlan.zhihu.com/p/19618664" target="_blank" rel="noopener">已经发生的游戏史 ~ Zhihu</a><br><a href="https://www.zhihu.com/question/20150746" target="_blank" rel="noopener">三大主机（Xbox，PlayStation，Wii）鼎立的局面维持了这么多年，为什么没有再出现像世嘉这样的挑战者加入团战？ ~ Zhihu</a><br><a href="https://www.youtube.com/watch?v=Bao5lasziLQ" target="_blank" rel="noopener">Shenmue 3 Reactions ~ YouTube</a><br><a href="https://www.bilibili.com/video/av46126256" target="_blank" rel="noopener">游戏史上最华丽的失败者 ~ Bilibili</a></p></blockquote><hr><h1 id="4-三月流水账"><a class="markdownIt-Anchor" href="#4-三月流水账"></a> 4. 三月流水账</h1><h2 id="4-1-思源宋体"><a class="markdownIt-Anchor" href="#4-1-思源宋体"></a> 4-1. 思源宋体</h2><p>三月份倒腾了一下思源宋体，本来是因为写论文的时候需要用到。后来发现还挺好看的，所以把它用在了自己的博客上。<br>没想到折腾字体也是一件很费力的事，思源字体是开源使用的，因此很容易在网上找到打包的字体文件。<br>见 ➢<a href="https://github.com/adobe-fonts/source-han-sans" target="_blank" rel="noopener">思源黑体</a> 和 ➢<a href="https://github.com/adobe-fonts/source-han-serif" target="_blank" rel="noopener">思源宋体</a>。</p><p>值得注意的是，这些文件的下载体积高达 1.5GB，。。。。</p><p><img src="/images/m_2000years.jpg" alt="2000_years_later"></p><p>安装完成之后，无非就是通过链接或暴力复制的方式把字体文件放入系统字体中，刷新一下缓存就可以用了。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ ln -s ./*.&#123;ttf&#125; /usr/share/Fonts/siyuan/</span><br><span class="line"># or</span><br><span class="line">$ cp ./*.&#123;ttf&#125; /usr/share/Fonts/siyuan/</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ fc-cache -vf</span><br></pre></td></tr></table></figure><p>这样事情就结束了？<br>Navie！</p><p>既然我们用的是 <strong>Arch</strong>，为什么不去问一下强大的 Aur 呢？下面是展示真正的技术了。</p><p>在 Aur 的帮助下，我成功找到了思源字体的仓库，那么我们只需要安装简体中文的就可以了</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ yay -S adobe-source-han-sans-cn-fonts # 思源黑体</span><br><span class="line">$ yay -S adobe-source-han-serif-cn-fonts # 思源宋体</span><br></pre></td></tr></table></figure><p>去TM的下载 1.5GB 的文件，整个世界都清净了～Yeah~</p><p>有的同学要问了，如果我要使用Windows的字体怎么办？<br>同理， Aur 上有名为 <code>ttf-ms-win10-zh_cn</code> 的仓库，但是我们不能直接安装，这个仓库不提供字体，这里需要我们做一点小 trick。</p><p>首先把 Windows 系统上的字体文件都拷贝过来，或者我们可以直接 clone 别人的 github 仓库，如：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git clone https://github.com/fphoenix88888/ttf-mswin10-arch</span><br><span class="line">$ yay -U ttf-ms-win10-zh_cn</span><br></pre></td></tr></table></figure><p>*注：这里的方式只供参考，本人采用的都是很暴力的复制大法，没有验证这种方法的正确性</p><p>简单几句话搞定，这也体现了 Arch Linux  “中立邪恶” 的一面。</p><hr style="border: none; border-top: 1px dashed"><h2 id="4-2-meme"><a class="markdownIt-Anchor" href="#4-2-meme"></a> 4-2. Meme</h2><p>Meme 是什么？Meme可以是一个表情包（熊猫头），一个耳熟能详的句子（今年下半年），一段洗脑的音乐（啊啊啊，啊啊啊，西湖美景，三月天呐）…<br>Meme 对应的汉语翻译为 模因，《自私的基因》一书中将其定义为 “一种文化传播单位或模仿单位”。</p><p>模因更像汉语中“梗”这个词的概念，很容易进行复制传播，比如“六学”狂欢，大秦话。<br>正因为这种易于传播的性质，不好的Meme会像病毒一样侵蚀人们的思想，可能有点危言耸听。<br>但想一想宗教的例子，宗教中的信仰也可以看作一种模因，多少人死磕着迂腐的信条，做出了多少不符合常人的行为。</p><p>有兴趣的可以看下面参考资料中的视频，对模因有深入的讨论。</p><p><img src="/images/m_meme.png" alt="r/place"></p><blockquote><p>参考资料：<br>➢ <a href="https://www.bilibili.com/video/av11222602" target="_blank" rel="noopener">Bilibili~模因-表情包背后的迷思</a><br>➢ <a href="https://www.qdaily.com/tags/50816.html" target="_blank" rel="noopener">好奇心日报#meme</a><br>➢ <a href="http://scp-wiki-cn.wikidot.com/what-is-memes" target="_blank" rel="noopener">SCP基金会</a><br>➢ <a href="https://www.zhihu.com/question/57966233/answer/155443675" target="_blank" rel="noopener">知乎</a><br>➢ <a href="https://www.businessinsider.de/reddit-place-april-fools-experiment-creates-pixel-art-final-version-2017-4?r=US&amp;IR=T" target="_blank" rel="noopener">bussinessinsider</a></p></blockquote>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;/images/c_biyesj.png&quot; alt=&quot;gandiThesis&quot;&gt;&lt;/p&gt;
     
     </summary>
     
